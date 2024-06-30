@@ -1,0 +1,16 @@
+{
+  "name": "Automated CI/CD pipeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node sever.js",
+    "test": "npm test"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
