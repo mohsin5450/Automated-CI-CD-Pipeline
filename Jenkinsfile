@@ -38,7 +38,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 script {
-                   docker.image(DOCKER_IMAGE_NAME).run('-d -p 8080:8080 --name web-app:latest')
+                   docker.image(DOCKER_IMAGE_NAME).run('-d -p 8000:8000 --name web-app:latest')
                 }
             }
         }
