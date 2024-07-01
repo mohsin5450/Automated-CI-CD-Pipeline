@@ -5,7 +5,7 @@ pipeline {
         DOCKER_IMAGE_NAME = 'web-app:latest'
     }
     tools {
-        nodejs 'NodeJS 22.3.0'  
+        nodejs 'Node'  
     }
     stages {
         stage('Clone Repository') {
