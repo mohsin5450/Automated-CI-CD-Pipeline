@@ -4,6 +4,9 @@ pipeline {
         REPO_URL = 'https://github.com/mohsin5450/Automated-CI-CD-Pipeline.git'
         DOCKER_IMAGE_NAME = 'web-app:latest'
     }
+    tools {
+        nodejs 'NodeJS 22.3.0'  
+    }
     stages {
         stage('Clone Repository') {
             steps {
