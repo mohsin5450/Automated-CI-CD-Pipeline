@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools{
+       nodejs 'latest'
+   }
     environment {
         REPO_URL = 'https://github.com/mohsin5450/Automated-CI-CD-Pipeline.git'
         DOCKER_IMAGE_NAME = 'web-app:latest'
